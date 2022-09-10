@@ -84,7 +84,7 @@ G61 3AX,G61 3AX,NS 53458 73000,253458,673000,55.927673,-4.3470133,Bearsden Acade
 G62 7HS,G62 7HS,NS 53579 75222,253579,675222,55.947657,-4.3462847,Douglas Academy,East Dunbartonshire,Local Authority,Craigton Road,Milngavie,,G62 7HS
 G61 2PL,G61 2PL,NS 55956 71492,255956,671492,55.91489,-4.3062646,Boclair Academy,East Dunbartonshire,Local Authority,Inveroran Drive,Bearsden,,G61 2PL
 G66 3PA,G66 3PA,NS 67127 73458,267127,673458,55.935758,-4.128642,Kirkintilloch High School,East Dunbartonshire,Local Authority,Waterside Road,Kirkintilloch,,G66 3PA
-G66 1DT,G66 1DT,NS 64961 73648,264961,673648,55.93686,-4.1633834,St Ninian's High School,East Dunbartonshire,Local Authority,Bellfield Road,Kirkintilloch,,G66 1DT
+G66 1DT,G66 1DT,NS 64961 73648,264961,673648,55.93686,-4.1633834,St Ninian's High School - Kirkintilloch,East Dunbartonshire,Local Authority,Bellfield Road,Kirkintilloch,,G66 1DT
 G66 4HR,G66 4HR,NS 65143 72596,265143,672596,55.927466,-4.1599463,Lenzie Academy,East Dunbartonshire,Local Authority,Myrtle Avenue,Lenzie,,G66 4HR
 G64 1HZ,G64 1HZ,NS 62324 70612,262324,670612,55.908854,-4.2040155,Bishopbriggs Academy,East Dunbartonshire,Local Authority,Wester Cleddens Road,Bishopbriggs,,G64 1HZ
 G64 2EF,G64 2EF,NS 60188 70772,260188,670772,55.909675,-4.2382394,Turnbull High School,East Dunbartonshire,Local Authority,St Mary's Road,Bishopbriggs,GLASGOW,G64 2EF
@@ -98,7 +98,7 @@ G77 6NQ,G77 6NQ,NS 54124 57358,254124,657358,55.78745,-4.3279473,Eastwood High S
 G46 7HG,G46 7HG,NS 55279 59163,255279,659163,55.804002,-4.3105044,Woodfarm High School,East Renfrewshire,Local Authority,Robslee Road,Thornliebank,GLASGOW,G46 7HG
 G76 8RF,G76 8RF,NS 57252 56034,257252,656034,55.776498,-4.277414,Williamwood High School,East Renfrewshire,Local Authority,Eaglesham Road,Clarkston,GLASGOW,G76 8RF
 G77 5GU,G77 5GU,NS 55380 55346,255380,655346,55.769765,-4.3068674,Mearns Castle High School,East Renfrewshire,Local Authority,51 Waterfoot Road,Newton Mearns,GLASGOW,G77 5GU
-G46 6UX,G46 6UX,NS 55786 58617,255786,658617,55.799252,-4.3021335,St Ninian's High School,East Renfrewshire,Local Authority,13 Eastwood Park,Rouken Glen Road,GIFFNOCK,G46 6UX
+G46 6UX,G46 6UX,NS 55786 58617,255786,658617,55.799252,-4.3021335,St Ninian's High School - Giffnock,East Renfrewshire,Local Authority,13 Eastwood Park,Rouken Glen Road,GIFFNOCK,G46 6UX
 G78 2SG,G78 2SG,NS 50440 57618,250440,657618,55.788659,-4.3867846,St Luke's High School,East Renfrewshire,Local Authority,25 Springfield Road,Barrhead,GLASGOW,G78 2SG
 G78 2SJ,G78 2SJ,NS 50926 59078,250926,659078,55.801915,-4.3798409,Barrhead High School,East Renfrewshire,Local Authority,Aurs Road,Barrhead,GLASGOW,G78 2SJ
 EH30 9JX,EH30 9JX,NT 13531 77993,313531,677993,55.987086,-3.387562,Queensferry Community High School,Edinburgh City,Local Authority,80 Station Road,South Queensferry,EDINBURGH,EH30 9JX
