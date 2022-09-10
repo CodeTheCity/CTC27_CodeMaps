@@ -57,17 +57,6 @@ server <- function(input, output) {
     
    schools<- addTiles(schools)
    
-    schools<-addPolygons(schools, data=academys, stroke = TRUE, group = "Secondary schools", color = "red", smoothFactor = 0.3, fillOpacity = 0.1, weight=1,
-                            
-                            label = ~paste0("Secondary School catchment: ", NAME)) 
-    
-    schools<-addPolygons(schools, data=rc_schools, stroke = TRUE, group = "RC Schools", color = "purple", smoothFactor = 0.3, fillOpacity = 0.1, weight=1,
-                            
-                            label = ~paste0("RC School catchment: ", NAME)) 
-    
-    schools<-addPolygons(schools, data=primary, stroke = TRUE, group = "Primary Schools", color = "darkmagenta", smoothFactor = 0.3, fillOpacity = 0.1, weight=1,
-                            
-                            label = ~paste0("Primary School catchment: ", NAME)) 
     
     schools<-addPolygons(schools, data=LCA, stroke = TRUE, group = "Local Authority", color = "black", smoothFactor = 0.3, fillOpacity = 0.1, weight=2,
                          
@@ -79,7 +68,7 @@ server <- function(input, output) {
     
     schools<-addLayersControl(schools, overlayGroups = c(  "Secondary",  "Local Authority"), options=layersControlOptions(collapsed=FALSE) )
     
-  # saveWidget(schools, file="schools.html")
+   #saveWidget(schools, file="schools.html")
   })
   output$codeclub_table<-DT::renderDataTable(codeclubs, extensions = 'Buttons', options = list(
     dom = 'Blfrtip',
