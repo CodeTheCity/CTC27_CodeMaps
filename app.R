@@ -19,9 +19,6 @@ library(htmlwidgets)
 
 
 #Data
-academys<-readOGR("https://services5.arcgis.com/0sktPVp3t1LvXc9z/arcgis/rest/services/Academy_School_Catchments/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-rc_schools<-readOGR("https://services5.arcgis.com/0sktPVp3t1LvXc9z/arcgis/rest/services/RC_School_Catchments/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
-primary<-readOGR("https://services5.arcgis.com/0sktPVp3t1LvXc9z/arcgis/rest/services/Primary_School_Catchments/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
 plot_schools<-read.csv("https://raw.githubusercontent.com/CodeTheCity/CTC27_CodeMaps/main/Data/Scotland%20Secondary%20School%20Coordinates.csv")
 LCA<-readOGR("https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/administrative/sco/lad.json")
 codeclubs<-read.csv("https://raw.githubusercontent.com/CodeTheCity/CTC27_CodeMaps/main/Data/Code_clubs.csv", header=TRUE)
