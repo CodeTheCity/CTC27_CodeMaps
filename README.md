@@ -1,7 +1,16 @@
 # CTC27_CodeMaps
 
 # Plan
-
+- Add google form for people to say they are starting a code club
+- Get data
+    - Getting coding club locations
+    - School coordinates*
+    - CS teacher by school*
+    - school catchment areas
+    - SIMD 
+    - geojson files* 
+    - #schools in LAD
+    - #schools prov CS
 
 # Useful Links
 TEST EDIT
@@ -21,3 +30,6 @@ TEST EDIT
 [Computing Science Teachers in Scotland, Computing at Schools Scotland, 2016](https://nanopdf.com/download/computing-science-teachers-in-scotland-2016_pdf)
 [SQA Statistics Archive](https://www.sqa.org.uk/sqa/57523.html)
 [Scottish secondary schools with computing science teachers](https://public.tableau.com/app/profile/kiranjoza/viz/CS-Teachers-FOI-Responses-2016-2020/FTEbyLocalAuthority)
+
+[geoJSON files](http://martinjc.github.io/UK-GeoJSON/)
+[geojson ScoLAD](https://github.com/martinjc/UK-GeoJSON/blob/master/json/administrative/sco/lad.json)
