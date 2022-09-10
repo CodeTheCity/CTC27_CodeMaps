@@ -1,0 +1,12 @@
+git clone https://github.com/CodeTheCity/CTC27_CodeMaps.git
+cd CTC27_CodeMaps
+
+git pull origin main
+
+git status
+
+git add <filename>
+
+git commit -m "<message>"
+
+git push origin main
