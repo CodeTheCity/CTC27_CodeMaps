@@ -1,22 +1,22 @@
-S/N,Name,Locations,Websites,Target (Age group)
-1,CoderDojo Stirling,Stirling,https://coderdojoscotland.com/clubs/stirling,8 to 17 year olds
-2,Renfrewshire Dojo,Renfrewshire,Renfrewshire – CoderDojo Scotland,8 to 17 year olds
-3,Perth Dojo,Perth,Perth – CoderDojo Scotland,8 to 17 year olds
-4,Moray CoderDojo,Moray,Moray – CoderDojo Scotland,9 to 17 year olds
-5,CoderDojo Midlothian,Midlothian,Midlothian – CoderDojo Scotland,7 to 16  year olds
-6,Livingston CoderDojo,Livingston,Livingston – CoderDojo Scotland,
-7,Islay CoderDojo ,Islay,https://coderdojoscotland.com/clubs/islay,8 to 17 year olds
-8,CoderDojo Arbroath,Arbroath,https://zen.coderdojo.com/dojos/gb/arbroath/arbroath-arbroath-library,7-17 year olds.
-9,Inverness CoderDojo ,Inverness,https://coderdojoscotland.com/clubs/inverness-stem-hub,under 16
-10,Glasgow CoderDojo,Glasgow,https://coderdojoscotland.com/clubs/glasgow,12 to 17 year olds
-11,Glasgow Libraries CoderDojo,Glasgow Libraries,https://coderdojoscotland.com/clubs/glasgow-libraries,start at 8 years
-12,Glasgow Kelvinside CoderDojo,Glasgow Kelvinside,https://coderdojoscotland.com/clubs/glasgow-kelvinside,12 to 17 year olds
-13,Glasgow Castlemilk CoderDojo,Glasgow Castlemilk,https://coderdojoscotland.com/clubs/castlemilk,8 to 17 year olds
-14,Glasgow Bridgeton CoderDojo,Glasgow Bridgeton,https://coderdojoscotland.com/clubs/bridgeton,8 to 17 year olds
-15,Edinburgh Storm,Edinburgh Storm CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-storm,7 to 17 year olds
-16,Edinburgh Stockbridge,Edinburgh Stockbridge CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-stockbridge-library,7 to 17 year olds
-17,Edinburgh Prewired,Edinburgh Prewired CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-prewired,under 19
-18,Edinburgh Drumbrae,Edinburgh Drumbrae CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-drumbrae,10 to 16 year olds
-19,Dundee,Dundee CoderDojo,https://coderdojoscotland.com/clubs/dundee,7 to 17 year olds
-20,CodeClan,CodeClan CoderDojo,https://coderdojoscotland.com/clubs/codeclan-edinburgh,7 to 17 year olds
-21,Ayrshire,Ayrshire CoderDojo,https://coderdojoscotland.com/clubs/ayrshire,7 to 17 year olds
+Name,Locations,Websites,Age_group
+CoderDojo Stirling,Stirling,https://coderdojoscotland.com/clubs/stirling,8 to 17 year olds
+Renfrewshire Dojo,Renfrewshire,Renfrewshire – CoderDojo Scotland,8 to 17 year olds
+Perth Dojo,Perth,Perth – CoderDojo Scotland,8 to 17 year olds
+Moray CoderDojo,Moray,Moray – CoderDojo Scotland,9 to 17 year olds
+CoderDojo Midlothian,Midlothian,Midlothian – CoderDojo Scotland,7 to 16  year olds
+Livingston CoderDojo,Livingston,Livingston – CoderDojo Scotland,NA
+Islay CoderDojo ,Islay,https://coderdojoscotland.com/clubs/islay,8 to 17 year olds
+CoderDojo Arbroath,Arbroath,https://zen.coderdojo.com/dojos/gb/arbroath/arbroath-arbroath-library,7-17 year olds.
+Inverness CoderDojo ,Inverness,https://coderdojoscotland.com/clubs/inverness-stem-hub,under 16
+Glasgow CoderDojo,Glasgow,https://coderdojoscotland.com/clubs/glasgow,12 to 17 year olds
+Glasgow Libraries CoderDojo,Glasgow Libraries,https://coderdojoscotland.com/clubs/glasgow-libraries,start at 8 years
+Glasgow Kelvinside CoderDojo,Glasgow Kelvinside,https://coderdojoscotland.com/clubs/glasgow-kelvinside,12 to 17 year olds
+Glasgow Castlemilk CoderDojo,Glasgow Castlemilk,https://coderdojoscotland.com/clubs/castlemilk,8 to 17 year olds
+Glasgow Bridgeton CoderDojo,Glasgow Bridgeton,https://coderdojoscotland.com/clubs/bridgeton,8 to 17 year olds
+Edinburgh Storm,Edinburgh Storm CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-storm,7 to 17 year olds
+Edinburgh Stockbridge,Edinburgh Stockbridge CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-stockbridge-library,7 to 17 year olds
+Edinburgh Prewired,Edinburgh Prewired CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-prewired,under 19
+Edinburgh Drumbrae,Edinburgh Drumbrae CoderDojo,https://coderdojoscotland.com/clubs/edinburgh-drumbrae,10 to 16 year olds
+Dundee,Dundee CoderDojo,https://coderdojoscotland.com/clubs/dundee,7 to 17 year olds
+CodeClan,CodeClan CoderDojo,https://coderdojoscotland.com/clubs/codeclan-edinburgh,7 to 17 year olds
+Ayrshire,Ayrshire CoderDojo,https://coderdojoscotland.com/clubs/ayrshire,7 to 17 year olds
