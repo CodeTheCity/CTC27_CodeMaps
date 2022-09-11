@@ -1,56 +1,37 @@
 # CTC27_CodeMaps
 
-Together with dressCode (https://dresscode.org.uk/) who are working to narrow the gender gap in young persons taking up Computing Science studies, we are using this weekend’s hackathon to source, collate, analyse and visualise data which tells the stories of what, where and how Computing Science is provisioned and available to young persons in Scotland. 
+This project was created over the CTC27 hack weekend (10-11 Sep 2022) to create a map to help visualise what, where and how Computing Science is provisioned and available to young persons in Scotland. 
 
-The current data appears to suggest that there is a decrease in uptake of Computer Science classes in Scotland. We are trying to understand the data and connect the dots by trying to visualise different kinds of data about schools, secondary schools in local authority areas and catchment areas together with other kinds of data to try to find the reasons for this.
+We created a map which plots the locations of secondary schools in scotland, overlaid with supporting information such as: local authority boundaries, whether there were Computing Science teachers at those schools in 2016 and 2020, and if there were coding clubs in the area.
 
+The data is obtained from several sources and the map is built in R and deployed in an R Shiny app viewable at [https://codethecity.shinyapps.io/CodeMaps/](https://codethecity.shinyapps.io/CodeMaps/)
 
-# Plan
-- Add google form for people to say they are starting a code club
-- Get data
-    - Getting coding club locations
-    - School coordinates*
-    - CS teacher by school*
-    - school catchment areas
-    - SIMD 
-    - geojson files* 
-    - #schools in LAD
-    - #schools prov CS
+![a map of scottish secondary schools](resources/map_screenshot.png)
 
-# Data Sources in this project
-[Scotland Local Authority geojson polygons from github.com/martinjc](https://github.com/martinjc/UK-GeoJSON/blob/master/json/administrative/sco/lad.json)
+# Data Sources
 
-# Scotland Secondary School Coordinates
-This data was collected from 
+## Local Authority Overlays
+Scotland Local Authority geojson polygons used in map overlays [github.com/martinjc](https://github.com/martinjc/UK-GeoJSON/blob/master/json/administrative/sco/lad.json)
 
+## Scotland Secondary School Coordinates
+This data was extracted from Open Street maps using an [overpass query](https://overpass-turbo.eu/s/1lNy) with output saved to [Data/secondaryschoolsloc.geojson](Data/secondaryschoolsloc.geojson)
+```
+[out:json][timeout:25];
+{{geocodeArea:Scotland}}->.sco;
+(
+  nwr["amenity"="school"](area.sco);
+);
+out body;
+>;
+out skel qt;
+```
+## Computing Science Teacher Counts
+The counts of teachers providing Computing Science education in secondary schools 2016 and 2020 is extracted from this [tableau dashboard](https://public.tableau.com/app/profile/kiranjoza/viz/CS-Teachers-FOI-Responses-2016-2020/FTEbyLocalAuthority) created from FOI requests made by [Education Scotland](https://education.gov.scot/media/odbi3bw4/computing-science-in-local-authority-secondary-schools-jan-22.pdf) and their research into Computing Science provision in secondary schools.
+The extracted data is saved in [Data/FTE by Local Authority_data.csv](Data/FTE%20by%20Local%20Authority_data.csv) and [Data/FTE by School_data.csv](Data/FTE%20by%20School_data.csv)
 
-
-# FTE by School_data.csv
-This data was collected from 
-This data compares how many 'full time equivalent' teachers are there in each school within a local authority in years 2016 and 2020.
-
-
-# Useful Links
-
-[National Records of Scotland (NRS) Geography Products](https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products)
-
-[School education statistics, Education Collection at gov.scot](https://www.gov.scot/collections/school-education-statistics)
-
-[Scottish Council of Independent Schools (SCIS)](https://www.scis.org.uk)
-
-[Annual Report 2021, Scottish Council of Independent Schools](https://www.scis.org.uk/assets/Uploads/SCIS-publications/SCIS-Annual-Report-2021.pdf)
-
-[Urban Rural Classification 2016 & 2020, Scottish Government](https://www.gov.scot/collections/agriculture-fisheries-and-ruralstatistics/#urbanruralclassification)
-
-[Computing Science Teachers in Scotland, Computing at Schools Scotland, 2016](https://nanopdf.com/download/computing-science-teachers-in-scotland-2016_pdf)
-
-[SQA Statistics Archive](https://www.sqa.org.uk/sqa/57523.html)
-
-[Scottish secondary schools with computing science teachers](https://public.tableau.com/app/profile/kiranjoza/viz/CS-Teachers-FOI-Responses-2016-2020/FTEbyLocalAuthority)
-
-[geoJSON files](http://martinjc.github.io/UK-GeoJSON/)
-
-[geojson ScoLAD](https://github.com/martinjc/UK-GeoJSON/blob/master/json/administrative/sco/lad.json)
+## Code Clubs
+Manually scraped from websites and social media at the CTC27 hack event. The outputs are saved in [Data/Code_clubs.csv](Data/Code_clubs.csv)
 
 # Map
-https://codethecity.shinyapps.io/CodeMaps/
+
+The source code for the map is [app.R](app.R), a .html only version is available in [schools.html](schools.html) and a published [RShiny App](https://codethecity.shinyapps.io/CodeMaps/) which also includes supporting data tables.
