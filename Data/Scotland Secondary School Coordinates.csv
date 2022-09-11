@@ -32,7 +32,7 @@ DD11 3EN,DD11 3EN,NO 63040 41262,363040,741262,56.561859,-2.6029596,Arbroath Hig
 DD9 6LB,DD9 6LB,NO 59049 60762,359049,760762,56.736698,-2.6709948,Brechin High School,Angus,Local Authority,Brechin Community Campus,Duke Street,BRECHIN,DD9 6LB
 DD7 7SS,DD7 7SS,NO 55606 35118,355606,735118,56.506021,-2.7228513,Carnoustie High School,Angus,Local Authority,Shanwell Road,Carnoustie,,DD7 7SS
 DD8 3TG,DD8 3TG,NO 45177 51708,345177,751708,56.653943,-2.895783,Forfar Academy,Angus,Local Authority,Forfar Community Campus,Kirriemuir Road,FORFAR,DD8 3TG
-DD8 5BR,DD8 5BR,postcode not found,,,,,Webster's High School,Angus,Local Authority,Prosen Road,Kirriemuir,,DD8 5BR
+DD8 5BR,DD8 5BR,postcode not found,,,56.670694,-3.0062417,Webster's High School,Angus,Local Authority,Prosen Road,Kirriemuir,,DD8 5BR
 DD10 8HU,DD10 8HU,NO 71686 57616,371686,757616,56.709377,-2.4640929,Montrose Academy,Angus,Local Authority,Academy Square,Montrose,,DD10 8HU
 DD5 4QT,DD5 4QT,NO 48399 32059,348399,732059,56.477805,-2.8393195,Monifieth High School,Angus,Local Authority,Panmurefield Road,Monifieth,,DD5 4QT
 PA43 7LS,PA43 7LS,NR 30793 59668,130793,659668,55.75526,-6.2922871,Islay High School,Argyll & Bute,Local Authority,Bowmore,Isle Of Islay,ARGYLL,PA43 7LS
@@ -84,7 +84,7 @@ G61 3AX,G61 3AX,NS 53458 73000,253458,673000,55.927673,-4.3470133,Bearsden Acade
 G62 7HS,G62 7HS,NS 53579 75222,253579,675222,55.947657,-4.3462847,Douglas Academy,East Dunbartonshire,Local Authority,Craigton Road,Milngavie,,G62 7HS
 G61 2PL,G61 2PL,NS 55956 71492,255956,671492,55.91489,-4.3062646,Boclair Academy,East Dunbartonshire,Local Authority,Inveroran Drive,Bearsden,,G61 2PL
 G66 3PA,G66 3PA,NS 67127 73458,267127,673458,55.935758,-4.128642,Kirkintilloch High School,East Dunbartonshire,Local Authority,Waterside Road,Kirkintilloch,,G66 3PA
-G66 1DT,G66 1DT,NS 64961 73648,264961,673648,55.93686,-4.1633834,St Ninian's High School,East Dunbartonshire,Local Authority,Bellfield Road,Kirkintilloch,,G66 1DT
+G66 1DT,G66 1DT,NS 64961 73648,264961,673648,55.93686,-4.1633834,St Ninian's High School - Kirkintilloch,East Dunbartonshire,Local Authority,Bellfield Road,Kirkintilloch,,G66 1DT
 G66 4HR,G66 4HR,NS 65143 72596,265143,672596,55.927466,-4.1599463,Lenzie Academy,East Dunbartonshire,Local Authority,Myrtle Avenue,Lenzie,,G66 4HR
 G64 1HZ,G64 1HZ,NS 62324 70612,262324,670612,55.908854,-4.2040155,Bishopbriggs Academy,East Dunbartonshire,Local Authority,Wester Cleddens Road,Bishopbriggs,,G64 1HZ
 G64 2EF,G64 2EF,NS 60188 70772,260188,670772,55.909675,-4.2382394,Turnbull High School,East Dunbartonshire,Local Authority,St Mary's Road,Bishopbriggs,GLASGOW,G64 2EF
@@ -98,7 +98,7 @@ G77 6NQ,G77 6NQ,NS 54124 57358,254124,657358,55.78745,-4.3279473,Eastwood High S
 G46 7HG,G46 7HG,NS 55279 59163,255279,659163,55.804002,-4.3105044,Woodfarm High School,East Renfrewshire,Local Authority,Robslee Road,Thornliebank,GLASGOW,G46 7HG
 G76 8RF,G76 8RF,NS 57252 56034,257252,656034,55.776498,-4.277414,Williamwood High School,East Renfrewshire,Local Authority,Eaglesham Road,Clarkston,GLASGOW,G76 8RF
 G77 5GU,G77 5GU,NS 55380 55346,255380,655346,55.769765,-4.3068674,Mearns Castle High School,East Renfrewshire,Local Authority,51 Waterfoot Road,Newton Mearns,GLASGOW,G77 5GU
-G46 6UX,G46 6UX,NS 55786 58617,255786,658617,55.799252,-4.3021335,St Ninian's High School,East Renfrewshire,Local Authority,13 Eastwood Park,Rouken Glen Road,GIFFNOCK,G46 6UX
+G46 6UX,G46 6UX,NS 55786 58617,255786,658617,55.799252,-4.3021335,St Ninian's High School - Giffnock,East Renfrewshire,Local Authority,13 Eastwood Park,Rouken Glen Road,GIFFNOCK,G46 6UX
 G78 2SG,G78 2SG,NS 50440 57618,250440,657618,55.788659,-4.3867846,St Luke's High School,East Renfrewshire,Local Authority,25 Springfield Road,Barrhead,GLASGOW,G78 2SG
 G78 2SJ,G78 2SJ,NS 50926 59078,250926,659078,55.801915,-4.3798409,Barrhead High School,East Renfrewshire,Local Authority,Aurs Road,Barrhead,GLASGOW,G78 2SJ
 EH30 9JX,EH30 9JX,NT 13531 77993,313531,677993,55.987086,-3.387562,Queensferry Community High School,Edinburgh City,Local Authority,80 Station Road,South Queensferry,EDINBURGH,EH30 9JX
@@ -295,7 +295,7 @@ PA4 0AN,PA4 0AN,NS 50850 66844,250850,666844,55.871608,-4.385319,Renfrew High Sc
 PA4 8TP,PA4 8TP,NS 50765 67487,250765,667487,55.877354,-4.3870304,Trinity High School,Renfrewshire,Local Authority,Glebe Street,,RENFREW,PA4 8TP
 PA6 7EB,PA6 7EB,NS 40421 66609,240421,666609,55.866158,-4.5516792,Gryffe High School,Renfrewshire,Local Authority,Old Bridge of Weir Road,,HOUSTON,PA6 7EB
 EH45 9HB,EH45 9HB,NT 25131 39826,325131,639826,55.646185,-3.191156,Peebles High School,Scottish Borders,Local Authority,Springwood Road,Peebles,PEEBLESSHIRE,EH45 9HB
-TD4 6HF,TD4 6HF,postcode not found,,,,,Earlston High School,Scottish Borders,Local Authority,Earlston,Berwickshire,,TD4 6HF
+TD4 6HF,TD4 6HF,postcode not found,,,55.640510,-2.6626922,Earlston High School,Scottish Borders,Local Authority,Earlston,Berwickshire,,TD4 6HF
 TD1 3HU,TD1 3HU,NT 48898 35766,348898,635766,55.612794,-2.8128191,Galashiels Academy,Scottish Borders,Local Authority,Elm Row,Galashiels,SELKIRKSHIRE,TD1 3HU
 TD7 4EW,TD7 4EW,NT 47484 28693,347484,628693,55.549096,-2.8339156,Selkirk High School,Scottish Borders,Local Authority,Hillside Terrace,Selkirk,,TD7 4EW
 TD9 0EG,TD9 0EG,NT 49826 14470,349826,614470,55.421556,-2.7942244,Hawick High School,Scottish Borders,Local Authority,Buccleuch Road,Hawick,ROXBURGHSHIRE,TD9 0EG
@@ -311,7 +311,7 @@ ZE2 9BN,ZE2 9BN,HU 51118 91244,451118,1191244,60.601359,-1.068388,Mid Yell Junio
 ZE2 9HH,ZE2 9HH,HU 42132 24124,442132,1124124,59.999811,-1.2464559,Sandwick Junior High School,Shetland Islands,Local Authority,Sandwick,Shetland,,ZE2 9HH
 ZE2 9AQ,ZE2 9AQ,HU 54771 62355,454771,1162355,60.341541,-1.0096249,Whalsay School,Shetland Islands,Local Authority,Symbister,Whalsay,SHETLAND,ZE2 9AQ
 KA8 0SZ,KA8 0SZ,NS 35075 21504,235075,621504,55.459507,-4.6099097,Ayr Academy,South Ayrshire,Local Authority,University Avenue,Ayr,,KA8 0SZ
-KA7 2PG,KA7 2PG,postcode not found,,,,,Belmont Academy,South Ayrshire,Local Authority,Nursery Road,Ayr,,KA7 2PG
+KA7 2PG,KA7 2PG,postcode not found,,,55.444900,-4.6190036,Belmont Academy,South Ayrshire,Local Authority,Nursery Road,Ayr,,KA7 2PG
 KA7 3TL,KA7 3TL,NS 35472 19446,235472,619446,55.441168,-4.6024211,Queen Margaret Academy,South Ayrshire,Local Authority,33A Dalmellington Road,Ayr,,KA7 3TL
 KA26 9DW,KA26 9DW,NX 19186 97621,219186,597621,55.239556,-4.8454436,Girvan Academy,South Ayrshire,Local Authority,62 The Avenue,Girvan,,KA26 9DW
 KA19 8BP,KA19 8BP,NS 29286 09632,229286,609632,55.350963,-4.6940888,Carrick Academy,South Ayrshire,Local Authority,72/74 Kirkoswald Road,Maybole,,KA19 8BP

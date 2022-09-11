@@ -44,3 +44,6 @@ The current data appears to suggest that there is a decrease in uptake of Comput
 [geoJSON files](http://martinjc.github.io/UK-GeoJSON/)
 
 [geojson ScoLAD](https://github.com/martinjc/UK-GeoJSON/blob/master/json/administrative/sco/lad.json)
+
+# Map
+https://codethecity.shinyapps.io/CodeMaps/

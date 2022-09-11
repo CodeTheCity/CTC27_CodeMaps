@@ -113,8 +113,8 @@ City of Edinburgh,Forrester High School,2020,2
 City of Edinburgh,Forrester High School,2016,2
 City of Edinburgh,Gracemount High School,2020,2
 City of Edinburgh,Gracemount High School,2016,2
-City of Edinburgh,Holy Rood Roman Catholic High School,2020,1
-City of Edinburgh,Holy Rood Roman Catholic High School,2016,1
+City of Edinburgh,Holy Rood RC High School,2020,1
+City of Edinburgh,Holy Rood RC High School,2016,1
 City of Edinburgh,James Gillespie's High School,2020,1
 City of Edinburgh,James Gillespie's High School,2016,2
 City of Edinburgh,Leith Academy,2020,2
@@ -125,18 +125,18 @@ City of Edinburgh,Portobello High School,2020,2
 City of Edinburgh,Portobello High School,2016,2.58
 City of Edinburgh,Queensferry Community High School,2020,3
 City of Edinburgh,Queensferry Community High School,2016,2
-City of Edinburgh,St Augustine's Roman Catholic High School,2020,1
-City of Edinburgh,St Augustine's Roman Catholic High School,2016,1.65
-City of Edinburgh,St Thomas of Aquin's Roman Catholic High School,2020,2
-City of Edinburgh,St Thomas of Aquin's Roman Catholic High School,2016,3
+City of Edinburgh,St Augustine's High School,2020,1
+City of Edinburgh,St Augustine's High School,2016,1.65
+City of Edinburgh,St Thomas of Aquin's High School,2020,2
+City of Edinburgh,St Thomas of Aquin's High School,2016,3
 City of Edinburgh,The Royal High School,2020,3
 City of Edinburgh,The Royal High School,2016,3
 City of Edinburgh,Trinity Academy,2020,3
 City of Edinburgh,Trinity Academy,2016,4
 City of Edinburgh,Tynecastle High School,2020,1
 City of Edinburgh,Tynecastle High School,2016,1
-City of Edinburgh,Wester Hailes Education Centre,2020,2
-City of Edinburgh,Wester Hailes Education Centre,2016,1
+City of Edinburgh,Wester Hailes High School,2020,2
+City of Edinburgh,Wester Hailes High School,2016,1
 Clackmannanshire,Alloa Academy,2020,1
 Clackmannanshire,Alloa Academy,2016,1
 Clackmannanshire,Alva Academy,2020,1
@@ -165,8 +165,8 @@ Dumfries & Galloway,Lockerbie Academy,2020,
 Dumfries & Galloway,Lockerbie Academy,2016,0
 Dumfries & Galloway,Moffat Academy,2020,
 Dumfries & Galloway,Moffat Academy,2016,0
-Dumfries & Galloway,North West Secondary Community Campus,2020,
-Dumfries & Galloway,North West Secondary Community Campus,2016,2
+Dumfries & Galloway,North West Community Campus,2020,
+Dumfries & Galloway,North West Community Campus,2016,2
 Dumfries & Galloway,Sanquhar Academy,2020,
 Dumfries & Galloway,Sanquhar Academy,2016,1
 Dumfries & Galloway,St Joseph's College,2020,
@@ -195,8 +195,8 @@ East Ayrshire,Doon Academy,2020,
 East Ayrshire,Doon Academy,2016,1
 East Ayrshire,Grange Academy,2020,
 East Ayrshire,Grange Academy,2016,0
-East Ayrshire,Kilmarnock Academy - William McIlvanney Campus,2020,
-East Ayrshire,Kilmarnock Academy - William McIlvanney Campus,2016,0
+East Ayrshire,Kilmarnock Academy,2020,
+East Ayrshire,Kilmarnock Academy,2016,0
 East Ayrshire,Loudoun Academy,2020,
 East Ayrshire,Loudoun Academy,2016,2
 East Ayrshire,Robert Burns Academy,2020,
@@ -261,8 +261,8 @@ Falkirk,Grangemouth High School,2020,2
 Falkirk,Grangemouth High School,2016,2
 Falkirk,Larbert High School,2020,1.5
 Falkirk,Larbert High School,2016,3
-Falkirk,St Mungo's High School,2020,2
-Falkirk,St Mungo's High School,2016,2
+Falkirk,St Mungo's RC High School,2020,2
+Falkirk,St Mungo's RC High School,2016,2
 Fife,Auchmuty High School,2020,2
 Fife,Auchmuty High School,2016,3
 Fife,Balwearie High School,2020,3
@@ -301,8 +301,8 @@ Fife,Woodmill High School,2020,3
 Fife,Woodmill High School,2016,3
 Glasgow City,All Saints Secondary School,2020,1
 Glasgow City,All Saints Secondary School,2016,2
-Glasgow City,Ardsgoil Glasgow Gaelic Secondary School,2020,
-Glasgow City,Ardsgoil Glasgow Gaelic Secondary School,2016,
+Glasgow City,Glasgow Gaelic School,2020,
+Glasgow City,Glasgow Gaelic School,2016,
 Glasgow City,Bannerman High School,2020,2
 Glasgow City,Bannerman High School,2016,2
 Glasgow City,Bellahouston Academy,2020,2
@@ -359,8 +359,8 @@ Glasgow City,St Thomas Aquinas Secondary School,2020,2
 Glasgow City,St Thomas Aquinas Secondary School,2016,1
 Glasgow City,Whitehill Secondary School,2020,1
 Glasgow City,Whitehill Secondary School,2016,1
-Grant aided,Jordanhill,2020,
-Grant aided,Jordanhill,2016,
+Grant aided,Jordanhill School,2020,
+Grant aided,Jordanhill School,2016,
 Highland,Alness Academy,2020,
 Highland,Alness Academy,2016,1
 Highland,Ardnamurchan High School,2020,
@@ -435,8 +435,8 @@ Midlothian,Beeslack Community High School,2020,1.78
 Midlothian,Beeslack Community High School,2016,1
 Midlothian,Dalkeith High School,2020,0
 Midlothian,Dalkeith High School,2016,1
-Midlothian,Lasswade High School,2020,2.65
-Midlothian,Lasswade High School,2016,3.78
+Midlothian,Lasswade High School Centre,2020,2.65
+Midlothian,Lasswade High School Centre,2016,3.78
 Midlothian,Newbattle High School,2020,4
 Midlothian,Newbattle High School,2016,1
 Midlothian,Penicuik High School,2020,2
@@ -459,12 +459,12 @@ Moray,Milne's High School,2020,1
 Moray,Milne's High School,2016,0
 Moray,Speyside High School,2020,1
 Moray,Speyside High School,2016,1
-Na h-Eileanan Siar,Castlebay School Secondary,2020,1
-Na h-Eileanan Siar,Castlebay School Secondary,2016,0
+Na h-Eileanan Siar,Castlebay School,2020,1
+Na h-Eileanan Siar,Castlebay School,2016,0
 Na h-Eileanan Siar,Sgoil Lionacleit,2020,0
 Na h-Eileanan Siar,Sgoil Lionacleit,2016,1
-Na h-Eileanan Siar,Sir E Scott School Secondary,2020,0
-Na h-Eileanan Siar,Sir E Scott School Secondary,2016,0
+Na h-Eileanan Siar,Sir E Scott School,2020,0
+Na h-Eileanan Siar,Sir E Scott School,2016,0
 Na h-Eileanan Siar,The Nicolson Institute,2020,2
 Na h-Eileanan Siar,The Nicolson Institute,2016,2
 North Ayrshire,Ardrossan Academy,2020,2
@@ -473,8 +473,8 @@ North Ayrshire,Arran High School,2020,1
 North Ayrshire,Arran High School,2016,0.8
 North Ayrshire,Auchenharvie Academy,2020,2
 North Ayrshire,Auchenharvie Academy,2016,1
-North Ayrshire,Garnock Community Campus-Secondary,2020,2
-North Ayrshire,Garnock Community Campus-Secondary,2016,2
+North Ayrshire,Garnock Community Campus,2020,2
+North Ayrshire,Garnock Community Campus,2016,2
 North Ayrshire,Greenwood Academy,2020,2
 North Ayrshire,Greenwood Academy,2016,2
 North Ayrshire,Irvine Royal Academy,2020,1
@@ -515,8 +515,8 @@ North Lanarkshire,Greenfaulds High School,2020,2.5
 North Lanarkshire,Greenfaulds High School,2016,2
 North Lanarkshire,Kilsyth Academy,2020,
 North Lanarkshire,Kilsyth Academy,2016,0
-North Lanarkshire,Our Lady's High School,2020,1
-North Lanarkshire,Our Lady's High School,2016,1
+North Lanarkshire,Our Lady's High School - Motherwell,2020,1
+North Lanarkshire,Our Lady's High School - Motherwell,2016,1
 North Lanarkshire,Our Lady's High School - Cumbernauld,2020,2
 North Lanarkshire,Our Lady's High School - Cumbernauld,2016,2
 North Lanarkshire,St Aidan's High School,2020,4
@@ -533,22 +533,22 @@ North Lanarkshire,Taylor High School,2020,2
 North Lanarkshire,Taylor High School,2016,2
 Orkney Islands,Kirkwall Grammar School,2020,1
 Orkney Islands,Kirkwall Grammar School,2016,1.5
-Orkney Islands,Sanday Secondary School,2020,0
-Orkney Islands,Sanday Secondary School,2016,0
+Orkney Islands,Sanday Community School,2020,0
+Orkney Islands,Sanday Community School,2016,0
 Orkney Islands,Stromness Academy,2020,1
 Orkney Islands,Stromness Academy,2016,1
-Orkney Islands,Stronsay Secondary School,2020,0
-Orkney Islands,Stronsay Secondary School,2016,0
-Orkney Islands,Westray Secondary School,2020,0
-Orkney Islands,Westray Secondary School,2016,0
+Orkney Islands,Stronsay Junior High School,2020,0
+Orkney Islands,Stronsay Junior High School,2016,0
+Orkney Islands,Westray junior High School,2020,0
+Orkney Islands,Westray junior High School,2016,0
 Perth & Kinross,Bertha Park High School,2020,1
 Perth & Kinross,Bertha Park High School,2016,
 Perth & Kinross,Blairgowrie High School,2020,1
 Perth & Kinross,Blairgowrie High School,2016,1
-Perth & Kinross,Breadalbane Academy (Secondary),2020,0.3
-Perth & Kinross,Breadalbane Academy (Secondary),2016,1
-Perth & Kinross,Community School of Auchterarder (Secondary),2020,2
-Perth & Kinross,Community School of Auchterarder (Secondary),2016,1
+Perth & Kinross,Breadalbane Academy,2020,0.3
+Perth & Kinross,Breadalbane Academy,2016,1
+Perth & Kinross,The Community School of Auchterarder,2020,2
+Perth & Kinross,The Community School of Auchterarder,2016,1
 Perth & Kinross,Crieff High School,2020,2.6
 Perth & Kinross,Crieff High School,2016,2
 Perth & Kinross,Kinross High School,2020,3
@@ -559,10 +559,10 @@ Perth & Kinross,Perth Grammar School,2020,2.8
 Perth & Kinross,Perth Grammar School,2016,2
 Perth & Kinross,Perth High School,2020,3.8
 Perth & Kinross,Perth High School,2016,4
-Perth & Kinross,Pitlochry High School (Secondary),2020,0.6
-Perth & Kinross,Pitlochry High School (Secondary),2016,1
-Perth & Kinross,St John's RC Academy (Secondary),2020,1
-Perth & Kinross,St John's RC Academy (Secondary),2016,2
+Perth & Kinross,Pitlochry High School,2020,0.6
+Perth & Kinross,Pitlochry High School,2016,1
+Perth & Kinross,St John's RC Academy,2020,1
+Perth & Kinross,St John's RC Academy,2016,2
 Renfrewshire,Castlehead High School,2020,
 Renfrewshire,Castlehead High School,2016,1
 Renfrewshire,Gleniffer High School,2020,
@@ -579,8 +579,8 @@ Renfrewshire,Park Mains High School,2020,
 Renfrewshire,Park Mains High School,2016,3
 Renfrewshire,Renfrew High School,2020,
 Renfrewshire,Renfrew High School,2016,2
-Renfrewshire,St Andrew's Academy - Paisley,2020,
-Renfrewshire,St Andrew's Academy - Paisley,2016,4
+Renfrewshire,St Andrew's Academy,2020,
+Renfrewshire,St Andrew's Academy,2016,4
 Renfrewshire,St Benedict's High School,2020,
 Renfrewshire,St Benedict's High School,2016,3
 Renfrewshire,Trinity High School,2020,
@@ -595,28 +595,28 @@ Scottish Borders,Galashiels Academy,2020,2
 Scottish Borders,Galashiels Academy,2016,1
 Scottish Borders,Hawick High School,2020,4
 Scottish Borders,Hawick High School,2016,3.4
-Scottish Borders,Jedburgh Grammar Campus - Secondary,2020,1
-Scottish Borders,Jedburgh Grammar Campus - Secondary,2016,0
+Scottish Borders,Jedburgh Grammar School,2020,1
+Scottish Borders,Jedburgh Grammar School,2016,0
 Scottish Borders,Kelso High School,2020,1
 Scottish Borders,Kelso High School,2016,1
 Scottish Borders,Peebles High School,2020,3.99
 Scottish Borders,Peebles High School,2016,0.8
 Scottish Borders,Selkirk High School,2020,1
 Scottish Borders,Selkirk High School,2016,0
-Shetland Islands,Aith Junior High School - Secondary,2020,0
-Shetland Islands,Aith Junior High School - Secondary,2016,0
+Shetland Islands,Aith Junior High School,2020,0
+Shetland Islands,Aith Junior High School,2016,0
 Shetland Islands,Anderson High School,2020,2
 Shetland Islands,Anderson High School,2016,2
-Shetland Islands,Baltasound Junior High School - Secondary,2020,0
-Shetland Islands,Baltasound Junior High School - Secondary,2016,1
-Shetland Islands,Brae High School - Secondary,2020,0
-Shetland Islands,Brae High School - Secondary,2016,0
-Shetland Islands,Mid Yell Junior High School - Secondary,2020,0.2
-Shetland Islands,Mid Yell Junior High School - Secondary,2016,0
-Shetland Islands,Sandwick Junior High School - Secondary,2020,0.4
-Shetland Islands,Sandwick Junior High School - Secondary,2016,1
-Shetland Islands,Whalsay School - Secondary,2020,0
-Shetland Islands,Whalsay School - Secondary,2016,0
+Shetland Islands,Baltasound Junior High School,2020,0
+Shetland Islands,Baltasound Junior High School,2016,1
+Shetland Islands,Brae High School,2020,0
+Shetland Islands,Brae High School,2016,0
+Shetland Islands,Mid Yell Junior High School,2020,0.2
+Shetland Islands,Mid Yell Junior High School,2016,0
+Shetland Islands,Sandwick Junior High School,2020,0.4
+Shetland Islands,Sandwick Junior High School,2016,1
+Shetland Islands,Whalsay School,2020,0
+Shetland Islands,Whalsay School,2016,0
 South Ayrshire,Ayr Academy,2020,0
 South Ayrshire,Ayr Academy,2016,0
 South Ayrshire,Belmont Academy,2020,3.4
@@ -685,8 +685,8 @@ West Dunbartonshire,Clydebank High School,2020,5
 West Dunbartonshire,Clydebank High School,2016,4.8
 West Dunbartonshire,Dumbarton Academy,2020,2
 West Dunbartonshire,Dumbarton Academy,2016,2
-West Dunbartonshire,Our Lady and St Patrick's High School,2020,3
-West Dunbartonshire,Our Lady and St Patrick's High School,2016,1.4
+West Dunbartonshire,Our Lady & St Patrick's High School,2020,3
+West Dunbartonshire,Our Lady & St Patrick's High School,2016,1.4
 West Dunbartonshire,St Peter the Apostle High School,2020,3
 West Dunbartonshire,St Peter the Apostle High School,2016,4
 West Dunbartonshire,Vale of Leven Academy,2020,4
