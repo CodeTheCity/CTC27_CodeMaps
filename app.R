@@ -29,6 +29,13 @@ school_teachers<-merge(teachers, plot_schools, by.x="School.Name")
 teachers2016<- filter(school_teachers, Measure.Names=="2016")
 teachers2020<- filter(school_teachers, Measure.Names=="2020")
 teachers0<- filter(school_teachers, Measure.Values=="0")
+teachers20162022<-merge(teachers2016, teachers2020, by="School.Name")
+students2016<-read.csv("https://raw.githubusercontent.com/CodeTheCity/CTC27_CodeMaps/main/Data/Book1%20-%202016.csv", header=TRUE)
+teachers20162022<-teachers20162022[,c(1,2,4,20)]
+colnames(teachers20162022)<-c("Secondary School", "Local Authority", "2016", "2020")
+pupils20162020<-merge(students2016, students2020, by="School.Name")
+pupils20162020<-pupils20162020[,c(1,3,10,16)]
+colnames(pupils20162020)<-c("Secondary School", "Local Authority", "2016", "2020")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -44,6 +51,15 @@ ui <- fluidPage(
         fluidRow(  
           column(12, DT::dataTableOutput("codeclub_table"))
         ),
+        hr(),
+        fluidRow(  
+          column(12, DT::dataTableOutput("csteachers"))
+        ),
+        hr(),
+        fluidRow(  
+          column(12, DT::dataTableOutput("pupilstable20162020"))
+        )
+        
       )
    
 )
@@ -86,9 +102,18 @@ server <- function(input, output) {
     buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
   ))
   
+  output$csteachers<-DT::renderDataTable(teachers20162022, caption = 'Teachers figures for 2016 and 2020.', extensions = 'Buttons', options = list(
+    dom = 'Blfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
+  ))
+
+  output$pupilstable20162020<-DT::renderDataTable(pupils20162020, caption = 'Pupils figures for 2016 and 2020.', extensions = 'Buttons', options = list(
+    dom = 'Blfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
+  ))
   
-
-
+  
+ 
 }
 
 # Run the application 
