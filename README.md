@@ -1,5 +1,8 @@
 # CTC27_CodeMaps
 
+Together with dressCode (https://dresscode.org.uk/) who are working to narrow the gender gap in young persons taking up Computing Science studies, we are using this weekend’s hackathon to source, collate, analyse and visualise data which tells the stories of what, where and how Computing Science is provisioned and available to young persons in Scotland. 
+
+The current data appears to suggest that there is a decrease in uptake of Computer Science classes in Scotland. We are trying to understand the data and connect the dots by trying to visualise different kinds of data about schools, secondary schools in local authority areas and catchment areas together with other kinds of data to try to find the reasons for this.
 
 
 # Plan
