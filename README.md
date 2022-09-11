@@ -20,7 +20,14 @@ The current data appears to suggest that there is a decrease in uptake of Comput
 # Data Sources in this project
 [Scotland Local Authority geojson polygons from github.com/martinjc](https://github.com/martinjc/UK-GeoJSON/blob/master/json/administrative/sco/lad.json)
 
+# Scotland Secondary School Coordinates
+This data was collected from 
 
+
+
+# FTE by School_data.csv
+This data was collected from 
+This data compares how many 'full time equivalent' teachers are there in each school within a local authority in years 2016 and 2020.
 
 
 # Useful Links
