@@ -25,9 +25,12 @@ out body;
 >;
 out skel qt;
 ```
+
 ## Computing Science Teacher Counts
 The counts of teachers providing Computing Science education in secondary schools 2016 and 2020 is extracted from this [tableau dashboard](https://public.tableau.com/app/profile/kiranjoza/viz/CS-Teachers-FOI-Responses-2016-2020/FTEbyLocalAuthority) created from FOI requests made by [Education Scotland](https://education.gov.scot/media/odbi3bw4/computing-science-in-local-authority-secondary-schools-jan-22.pdf) and their research into Computing Science provision in secondary schools.
 The extracted data is saved in [Data/FTE by Local Authority_data.csv](Data/FTE%20by%20Local%20Authority_data.csv) and [Data/FTE by School_data.csv](Data/FTE%20by%20School_data.csv)
+
+The data for 'Secondary school teachers counts (with main subject of Computing), withing each local authority area in Scotland in 2021 is extracted in file [Data/Secondary_school_teachers_by_main_subject_local_authority_2021.csv](Data/Secondary_school_teachers_by_main_subject_local_authority_2021). This data was extracted from [Teacher census supplementary statistics](https://www.gov.scot/publications/teacher-census-supplementary-statistics/), ([file, table 8.9 ](https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2019/07/teacher-census-supplementary-data/documents/teacher-census-supplementary-statistics-2021/teacher-census-supplementary-statistics-2021/govscot%3Adocument/Teacher%2BCensus%2BSupplementary%2BStatistics%2B2021.xlsx)).
 
 ## Code Clubs
 Manually scraped from websites and social media at the CTC27 hack event. The outputs are saved in [Data/Code_clubs.csv](Data/Code_clubs.csv)
