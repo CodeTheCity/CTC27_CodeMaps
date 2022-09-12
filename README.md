@@ -38,3 +38,7 @@ Manually scraped from websites and social media at the CTC27 hack event. The out
 # Map
 
 The source code for the map is [app.R](app.R), a .html only version is available in [schools.html](schools.html) and a published [RShiny App](https://codethecity.shinyapps.io/CodeMaps/) which also includes supporting data tables.
+
+# Resources
+
+The file [resources_computer_science_education.csv](resources/resources_computer_science_education.csv) contains additional useful information, links and articles organised in a timeline from 2006 - 2021.
