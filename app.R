@@ -28,7 +28,7 @@ teachers<-read.csv("https://raw.githubusercontent.com/CodeTheCity/CTC27_CodeMaps
 school_teachers<-merge(teachers, plot_schools, by.x="School.Name")
 teachers2016<- filter(school_teachers, Measure.Names=="2016")
 teachers2020<- filter(school_teachers, Measure.Names=="2020")
-teachers2020<- filter(school_teachers, Measure.Values=="0")
+teachers0<- filter(school_teachers, Measure.Values=="0")
 teachers20162022<-merge(teachers2016, teachers2020, by="School.Name")
 students2016<-read.csv("https://raw.githubusercontent.com/CodeTheCity/CTC27_CodeMaps/main/Data/Book1%20-%202016.csv", header=TRUE)
 teachers20162022<-teachers20162022[,c(1,2,4,20)]
